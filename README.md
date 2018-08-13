@@ -30,7 +30,7 @@ FIXME: listing of options this app accepts.
 
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2018 Dane Johnson
 
-Distributed under the Eclipse Public License either version 1.0 or (at
+Distributed under the GNU Public License either version 3.0 or (at
 your option) any later version.
