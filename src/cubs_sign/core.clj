@@ -33,7 +33,7 @@
 (defn get-scoreboards
   "Retrieve the all game scoreboards from the server."
   []
-  (GET "mlb/current/scoreboard.json?fordate=2018081"
+  (GET "mlb/2018-regular/scoreboard.json?fordate=2018081"
        (fn [{:keys [status body error]}]
          (if (= status 200)
            (println (get-cubs-data (json/read-str body)))
